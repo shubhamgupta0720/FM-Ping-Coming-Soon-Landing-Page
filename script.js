@@ -13,7 +13,5 @@ function formSubmit(event){
     } else {
         inputField.style.borderColor = ""; // Reset border color
         emailError.style.visibility = "hidden"; // Hide the error message
-        // If email is not empty, you can submit the form here
-        // e.g., event.target.submit();
     }
 }

@@ -122,6 +122,11 @@ label{
     width: 32px;
 }
 
+#socialmedia div:hover{
+    cursor: pointer;
+    background-color: hsla(0, 0%, 59%, 0.2);
+}
+
 #socialmedia div i{
     font-size: 12px;
     color: hsl(223, 87%, 63%);
