@@ -144,7 +144,7 @@ footer{
 
 
 
-@media(max-width: 410px){
+@media(max-width: 480px){
 
     #appLogo img{
         width: 60px;
