@@ -6,8 +6,7 @@ function formSubmit(event){
     if (inputField.value.trim() === "") {
         inputField.style.borderColor = "hsl(354, 100%, 66%)"; // Change border color to red
         emailError.style.visibility = "visible"; // Display the error message
-        if(innerWidth <= 410){
-            console.log("mbfe")
+        if(innerWidth <= 480){
             emailError.classList.add('active');
         }
     } else {
